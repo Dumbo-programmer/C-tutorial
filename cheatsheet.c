@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+#include <stdlib.h> 
 int main(){
 
 //This tutorial is written  for dev.to
@@ -18,12 +18,12 @@ int main(){
     //\n is a new line character
     //Variables
 
-int myNum = 5;  // Integer (whole number)
+int myNuum = 5;  // Integer (whole number)
 float myFloatNum = 5.99; // Floating point number
 char myLetter = 'D'; // Character
     
 // Print variables
-printf("%d\n", myNum);
+printf("%d\n", myNuum);
 printf("%f\n", myFloatNum);
 printf("%c\n", myLetter);    
   
@@ -141,7 +141,7 @@ printf("%f\n", myRound);
 double myFloor = floor(myNum);
 printf("%f\n", myFloor);
 //absolute value
-double myNumm = -25.0;
+double myNumm = -25;
 double myAbs = abs(myNumm);
 printf("%f\n", myAbs);
 //power
