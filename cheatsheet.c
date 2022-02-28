@@ -33,8 +33,8 @@ if (20 > 18) {
   printf("20 is greater than 18");
 }
 //if..else
-int time = 20;
-if (time < 18) {
+int timee = 20;
+if (timee < 18) {
   printf("Good day.");
 } else {
   printf("Good evening.");
@@ -68,34 +68,34 @@ switch (time) {
 // Outputs "Good evening."
 
 //while loop
-int i = 0;
-while (i < 10) {
-    printf("%d\n", i);
-    i++;
+int iw = 0;
+while (iw < 10) {
+    printf("%d\n", iw);
+    iw++;
 }
 //for loop
-for (int i = 0; i < 10; i++) {
-    printf("%d\n", i);
+for (int ir = 0; ir < 10; ir++) {
+    printf("%d\n", ir);
 }
 //do while loop
-int i = 0;
+int iq = 0;
 do {
-    printf("%d\n", i);
-    i++;
-} while (i < 10);
+    printf("%d\n", iq);
+    iq++;
+} while (iq < 10);
 //break
-for (int i = 0; i < 10; i++) {
-    if (i == 5) {
+for (int ii = 0; ii < 10; ii++) {
+    if (ii == 5) {
         break;
     }
-    printf("%d\n", i);
+    printf("%d\n", ii);
 }
 //array
 int myNumbers[] = {25, 50, 75, 100};
 
 
-for (i = 0; i < 4; i++) {
-  printf("%d\n", myNumbers[i]);
+for (int io = 0; io < 4; io++) {
+  printf("%d\n", myNumbers[io]);
 }
 
 // Declare an array of four integers:
@@ -118,7 +118,6 @@ int myAge = 43;
 printf("%p", &myAge); // Outputs 0x7ffe5367e044
 
 //pointers
-int myAge = 43;
 int *myAgePointer = &myAge;
 printf("%p\n", myAgePointer); // Outputs 0x7ffe5367e044
 
@@ -132,32 +131,30 @@ double myNum = 25.0;
 double mySqrt = sqrt(myNum);
 printf("%f\n", mySqrt);
 //ceil number
-double myNum = 25.0;
+
 double myCeil = ceil(myNum);
 printf("%f\n", myCeil); 
 //round a number  
-double myNum = 25.0;
 double myRound = round(myNum);
 printf("%f\n", myRound);
 //floor number
-double myNum = 25.0;
 double myFloor = floor(myNum);
 printf("%f\n", myFloor);
 //absolute value
-double myNum = -25.0;
-double myAbs = abs(myNum);
+double myNumm = -25.0;
+double myAbs = abs(myNumm);
 printf("%f\n", myAbs);
 //power
-double myNum = 2.0;
-double myPower = pow(myNum, 3);
+double myNumP = 2.0;
+double myPower = pow(myNumP, 3);
 printf("%f\n", myPower);
 //modulus
-double myNum = 10.0;
-double myMod = fmod(myNum, 3);
+double myNumf = 10.0;
+double myMod = fmod(myNumf, 3);
 printf("%f\n", myMod);
 //random number
-double myNum = rand();
-printf("%f\n", myNum);
+double myNumr = rand();
+printf("%f\n", myNumr);
 
 
 
